@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de cidades</title>
+   <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+    <h1> Cadastro de cidades </h1>
+   <br>
+
+     <form action="form_cidade.php" method="post">
+  
+      <label for="nomecidade">Digite o nome da cidade que deseja Cadastrar</label>
+      <input type="text" id="nome_cidade" name="nomecidade" required><br><br>  
+      <label for="nomeestado"><p>escolha o estado para cadastar</p> </label>
+      <select id="nomeestado" name="nomeestado">
+
+        <option value="ACRE" > ACRE </option>
+        <option value="ALAGOAS" > ALAGOAS </option>
+        <option value="AMAPÁ" > AMAPÁ</option>
+        <option value="AMAZONAS" > AMAZONAS </option>
+        <option value="BAHIA" > BAHIA </option>
+        <option value="CEARÁ" > CEARÁ </option>
+        <option value="DF" > DISTRITO FEDERAL </option>
+        <option value="ES" > ESPÍRITO SANTO  </option>
+        <option value="GOIÁS" > GOIÁS </option>
+        <option value="MARANHÃO" > MARANHÃO </option>
+        <option value="MT" > MATO GROSSO </option>
+        <option value="MTS" > MATO GROSSO DO SUL </option>
+        <option value="MG" > MINAS GERAIS </option>
+        <option value="PARÁ" > PARÁ </option>
+        <option value="PARAÍBA" > PARAÍBA </option>
+        <option value= "PARANÁ" > PARANÁ </option>
+        <option value="PERNAMBUCO" > PERNAMBUCO </option>
+        <option value="PIAUÍ" > PIAUÍ </option>
+        <option value="RIO DE JANEIRO" > RIO DE JANEIRO </option>
+        <option value="RIO GRANDE DO NORTE" > RIO GRANDE DO NORTE </option>
+        <option value="RIO GRANDE DO SUL" > RIO GRANDE DO SUL </option>
+        <option value="RONDÔNIA" > RONDÔNIA </option>
+        <option value="RORAIMA" > RORAIMA </option>
+        <option value="SANTA CATARINA" > SANTA CATARINA </option>
+        <option value="SÃO PAULO" > SÃO PAULO </option>
+        <option value="SERGIPE" > SERGIPE </option>
+        <option value="TOCANTINS" > TOCANTINS </option>
+       
+
+      </select><br><br>
+       <input type="submit" value="Cadastrar">
+    
+    </form>
+    
+</body>
+      
+</html>
