@@ -11,10 +11,11 @@
     <h1> Cadastro de cidades </h1>
    <br>
 
-     <form action="form_cidade.php" method="post">
+     <form action="gerenciar_estados.php" method="post">
   
       <label for="nomecidade">Digite o nome da cidade que deseja Cadastrar</label>
-      <input type="text" id="nome_cidade" name="nomecidade" required><br><br>  
+      <input type="text" id="nomecidade" name="nomecidade" ><br><br>  
+      
       <label for="nomeestado"><p>escolha o estado para cadastar</p> </label>
       <select id="nomeestado" name="nomeestado">
 
@@ -24,13 +25,13 @@
         <option value="AMAZONAS" > AMAZONAS </option>
         <option value="BAHIA" > BAHIA </option>
         <option value="CEARÁ" > CEARÁ </option>
-        <option value="DF" > DISTRITO FEDERAL </option>
-        <option value="ES" > ESPÍRITO SANTO  </option>
+        <option value="DISTRITO FEDERAL" > DISTRITO FEDERAL </option>
+        <option value="ESPÍRITO SANTO" > ESPÍRITO SANTO  </option>
         <option value="GOIÁS" > GOIÁS </option>
         <option value="MARANHÃO" > MARANHÃO </option>
-        <option value="MT" > MATO GROSSO </option>
-        <option value="MTS" > MATO GROSSO DO SUL </option>
-        <option value="MG" > MINAS GERAIS </option>
+        <option value="MATO GROSSO" > MATO GROSSO </option>
+        <option value="MATO GROSSO DO SUL" > MATO GROSSO DO SUL </option>
+        <option value="MINAS GERAIS" > MINAS GERAIS </option>
         <option value="PARÁ" > PARÁ </option>
         <option value="PARAÍBA" > PARAÍBA </option>
         <option value= "PARANÁ" > PARANÁ </option>
@@ -49,8 +50,13 @@
 
       </select><br><br>
        <input type="submit" value="Cadastrar">
-    
     </form>
+    <br>
+    <form action="gerenciar_estados.php" method="get">
+      <input type="submit" value="Mostrar"
+    </form>
+   
+  
     
 </body>
       
